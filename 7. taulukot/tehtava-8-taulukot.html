@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TEHTÄVÄ 8: Taulukot</title>
+	</head>
+	<body>
+		<h1>TEHTÄVÄ 8: Taulukot</h1>
+		<hr />
+		<h3>1. Luo HTML-sivu joka sisältää seuraavan taulukon, jossa on kehykset (border)</h3>
+		<table border="2px" style="width: 10%; border-collapse: collapse">
+			<caption>
+				kertolaskutaulukko luvuille 1-3
+			</caption>
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td>2</td>
+				<td>4</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td>3</td>
+				<td>6</td>
+				<td>9</td>
+			</tr>
+		</table>
+
+		<hr />
+		<h3>4. Luo HTML-sivu joka sisältää seuraavanlaisen taulukon (solujen sisältö tyhjä)</h3>
+		<table border="2px">
+			<style>
+				th,
+				td {
+					padding: 10px;
+				}
+			</style>
+			<tr>
+				<td rowspan="2" colspan="2"></td>
+				<td></td>
+				<td rowspan="2" colspan="2"></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td rowspan="2" colspan="2"></td>
+				<td></td>
+				<td rowspan="2" colspan="2"></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+		</table>
+		<hr />
+		<h3>5. Luo taulukko joka jakaa sivun seuraavasti osiin (ns. taulukkotaitto)</h3>
+		<table style="width: 100%; height: 5cm; border-collapse: collapse">
+			<thead style="height: 14%">
+				<tr>
+					<td align="left" style="vertical-align: top">
+						<h3 align="left" style="vertical-align: top">Yläosa</h3>
+					</td>
+				</tr>
+			</thead>
+			<tbody style="height: 6%">
+				<tr>
+					<td align="left" style="vertical-align: top">
+						Keskiosa
+						<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="link">Flexbox opas</a>
+						&ensp;
+						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style" class="link"
+							>mozilla border-style</a
+						>
+						&ensp;
+						<a href="https://httpstatuses.com/" class="link">HTTP status koodit</a>
+					</td>
+				</tr>
+			</tbody>
+			<tfoot style="height: 80%">
+				<tr>
+					<td align="left" style="vertical-align: top">Alaosa lorem ipsum</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>

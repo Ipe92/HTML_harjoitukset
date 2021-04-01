@@ -7,71 +7,74 @@
 		<title>Taulukot</title>
 	</head>
 	<body>
-		<table style="width: 100%; border: 1px solid black">
-			<tr>
-				<th>solu 1</th>
-				<th>solu 2</th>
-				<th>solu 3</th>
-				<th>solu 4</th>
-				<th>solu 5</th>
-				<th>solu 6</th>
-				<th>solu 7</th>
-			</tr>
-			<tr>
-				<td>solu 1</td>
-				<td>solu 2</td>
-				<td>solu 3</td>
-				<td>solu 4</td>
-				<td>solu 5</td>
-				<td>solu 6</td>
-				<td>solu 7</td>
-				<td>solu 8</td>
-				<td>solu 9</td>
-			</tr>
-			<tr>
-				<td>solu 1</td>
-				<td>solu 2</td>
-				<td>solu 3</td>
-				<td>solu 4</td>
-				<td>solu 5</td>
-				<td>solu 6</td>
-				<td>solu 7</td>
-				<td>solu 8</td>
-				<td>solu 9</td>
-			</tr>
-			<tr>
-				<td>solu 1</td>
-				<td>solu 2</td>
-				<td>solu 3</td>
-				<td>solu 4</td>
-				<td>solu 5</td>
-				<td>solu 6</td>
-				<td>solu 7</td>
-				<td>solu 8</td>
-				<td>solu 9</td>
-			</tr>
-			<tr>
-				<td>solu 1</td>
-				<td>solu 2</td>
-				<td>solu 3</td>
-				<td>solu 4</td>
-				<td>solu 5</td>
-				<td>solu 6</td>
-				<td>solu 7</td>
-				<td>solu 8</td>
-				<td>solu 9</td>
-			</tr>
-			<tr>
-				<td>solu 1</td>
-				<td>solu 2</td>
-				<td>solu 3</td>
-				<td>solu 4</td>
-				<td>solu 5</td>
-				<td>solu 6</td>
-				<td>solu 7</td>
-				<td>solu 8</td>
-				<td>solu 9</td>
-			</tr>
-		</table>
+		<body cz-shortcut-listen="true">
+			<h1>Taulukko Demo</h1>
+			<h2>Painavimmat linnut</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Lintu</th>
+						<th>Keskipaino [kg (lb)]</th>
+						<th>Max paino [kg (lb)]</th>
+						<th>Lentävä</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Strutsi</td>
+						<td>104(230)</td>
+						<td>156.8 (346)</td>
+						<td>Ei</td>
+					</tr>
+					<tr>
+						<td>Somalian strutsi</td>
+						<td>90 (200)</td>
+						<td>130 (287)</td>
+						<td>Ei</td>
+					</tr>
+					<tr>
+						<td>Villi kalkkuna</td>
+						<td>13.5 (29.8)</td>
+						<td>39 (86)</td>
+						<td>Kyllä</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h2>Colspan ja Rowspan Demo</h2>
+			<table>
+				<thead>
+					<tr>
+						<th rowspan="2">Lintu</th>
+						<th colspan="2">Keskipaino</th>
+						<th rowspan="2">Lentävä</th>
+					</tr>
+					<tr>
+						<th>kg</th>
+						<th>lb</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Strutsi</td>
+						<td>104</td>
+						<td>230</td>
+						<td>Ei</td>
+					</tr>
+					<tr>
+						<td>Somalian strutsi</td>
+						<td>90</td>
+						<td>200</td>
+						<td>Ei</td>
+					</tr>
+					<tr>
+						<td>Villi kalkkuna</td>
+						<td>13.5</td>
+						<td>29.8</td>
+						<td>Kyllä</td>
+					</tr>
+				</tbody>
+			</table>
+		</body>
 	</body>
 </html>
