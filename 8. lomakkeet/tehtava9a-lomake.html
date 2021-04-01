@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TEHTÄVÄ 9a: Lomake</title>
+	</head>
+	<body>
+		<h1>TEHTÄVÄ 9a: Lomake</h1>
+		<hr />
+		<h3>
+			1. Luo HTML:ää käyttäen sivu jonka otsikkona on ”Sisäänkirjautuminen”. Sivu sisältää lomakkeen, jossa on
+			kentät käyttäjätunnuksen ja salasanan syöttämistä varten (otsikkoineen) sekä lähetyspainike.
+			Lähetyspainiketta painettaessa sivu lähetetään osoitteeseen vastaanottaja.com
+		</h3>
+		<form method="post" action="/vastaanottaja.com">
+			<fieldset>
+				<legend><h4>Sisäänkirjautuminen</h4></legend>
+				Käyttäjätunnus: <input type="text" name="nimi" maxlength="50" /> <br />
+				Salasana:
+				<input type="password" name="salasana" maxlength="40" />
+				<br />
+				<input type="submit" name="send" value="Lähetä" />
+			</fieldset>
+		</form>
+		<br />
+		<hr />
+		<h3>3. Luo radio buttoneita käyttäen HTML-sivu, jolla käyttäjä voi valita yhden seuraavista vaihtoehdoista:</h3>
+		<form action="">
+			<input type="radio" name="naposteltava" value="karkki" />Karkki <br />
+			<input type="radio" name="naposteltava" value="kepponen" />Kepponen <br />
+		</form>
+		<hr />
+		<h3>
+			4. Luo valintaruutuja (checkbox) käyttäen HTML-sivu, jolla käyttäjä voi valita yhden tai useita seuraavista
+			vaihtoehdoista:
+		</h3>
+		<form action="">
+			<input type="checkbox" name="Human" />Human (Ihminen)<input type="checkbox" name="Yöhaltia" />Night Elf
+			(Yöhaltia)<input type="checkbox" name="kääpiö" />Dwarf (kääpiö)<input type="checkbox" name="Tonttu" />Gnome
+			(Tonttu)<input type="checkbox" name="Draenei" />Draenei (Draenei)
+		</form>
+		<br />
+		<hr />
+		<h3>
+			5. Luo HTML-sivu jossa yksi edellisistä vaihtoehdoista on valittavissa pudotuvalikosta. Oletusvalintana on
+			ihminen.
+		</h3>
+		<form action="www.example.com">
+			<select name="rodut">
+				<option value="Ihminen" selected>Human (Ihminen)</option>
+				<option value="Yöhaltia">Night Elf (Yöhaltia)</option>
+				<option value="kääpiö">Dwarf (kääpiö)</option>
+				<option value="Tonttu">Gnome (Tonttu)</option>
+				<option value="Draenei">Draenei (Draenei)</option>
+			</select>
+			<br />
+			<textarea name="textarea" cols="60" rows="3"></textarea> <br />
+			<input type="submit" name="send" value="Lähetä" />
+			<input type="reset" name="reset" value="Tyhjennä" />
+		</form>
+	</body>
+</html>

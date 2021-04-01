@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="" method="post">
+			Nimi:
+			<fieldset>
+                <legend>Henkilö: </legend>
+                Nimi:
+			    <input type="text" name="nimi" maxlength="50" />
+    			<br />
+    			Sähkoposti:
+    			<input type="text" name="email" maxlength="500" />
+			</fieldset>
+			<br />
+
+			Viestisi: <br />
+			<textarea name="kommentti" cols="70" rows="3"></textarea>
+			<br />
+			<input type="submit" name="send" value="Lähetä" />
+			<input type="reset" name="reset" value="Tyhjennä" />
+		</form>
+
+		<select name="valinnat" id="">
+			<option value="salami" label="salami"></option>
+			<option value="kinkku" label="kinkku"></option>
+			<option value="herkkusieni" label="herkkusieni"></option>
+			<option value="valkosipuli" label="valkosipuli"></option>
+		</select>
+		<br />
+
+		<input type="checkbox" name="hei" id="">1</input><input type="checkbox" name="" id="">2</input><input type="checkbox" name="" id="">3</input><input type="checkbox" name="" id="">4</input><input type="checkbox" name="" id="">5</input>
+		<br />
+
+		<textarea name="kommentti" id="" cols="70" rows="3">Kirjoita jotain</textarea>
+	</body>
+</html>
