@@ -1,0 +1,33 @@
+html {
+	font: Verdana, Arial;
+	font-family: Verdana, Arial;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font: 18px;
+}
+
+h5 {
+	font: 16px;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+p {
+	font: Tahoma 12px;
+}
