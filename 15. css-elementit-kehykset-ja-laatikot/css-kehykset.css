@@ -1,0 +1,60 @@
+html {
+    font: Verdana, Arial;
+    font-family: Verdana, Arial;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font: 18px;
+}
+
+h5 {
+    font: 16px;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+p {
+    font: Tahoma 12px;
+}
+
+button {
+    border: 1.5em solid;
+    border-top-color: rgb(185, 185, 185);
+    border-right-color: rgb(61, 61, 61);
+    border-bottom-color: rgb(104, 104, 104);
+    border-left-color: rgb(163, 163, 163);
+}
+
+.kuva {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 10px solid;
+    border-top-color: #D2B3B2;
+    border-right-color: #EFDBDB;
+    border-bottom-color: #7B7171;
+    border-left-color: #C39C93;
+    box-shadow: 0 0 0 10px grey;
+}
+
+.kuva2 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 10px dashed;
+}
